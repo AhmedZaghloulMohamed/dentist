@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.apointData{
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 5px 20px 50px #000;
+}form{
+    height: 100%;
+}
+form label{
+    color: #fff;
+}
+.painDescription{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.painDescription input{
+    padding: 10px;
+    text-align: right;
+    border-radius: 10px;
+    margin:10px 0;
+}
+.painDescription button{
+    padding: 10px 30px;
+    background: #573b8a;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.painDescription img{
+    width: 100px;
+    border-radius: 50%;
+}
